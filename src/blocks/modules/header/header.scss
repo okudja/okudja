@@ -1,0 +1,51 @@
+
+.color {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+    div{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        
+    }
+}
+.p1{
+    background-color: $p1;
+}
+.p2{
+    background-color: $p2;
+}
+.p3{
+    background-color: $p3;
+}
+.p4{
+    background-color: $p4;
+}
+
+.l1-p1{
+    background-color: $l1-p1
+}
+.l1-p2{
+    background-color: $l1-p2
+}
+.l1-p3{
+    background-color: $l1-p3
+}
+.l1-p4{
+    background-color: $l1-p4
+}
+
+.d1-p1{
+    background-color: $d1-p1
+}
+.d1-p2{
+    background-color: $d1-p2
+}
+.d1-p3{
+    background-color: $d1-p3
+}
+.d1-p4{
+    background-color: $d1-p4
+}
