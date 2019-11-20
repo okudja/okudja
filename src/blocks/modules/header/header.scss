@@ -1,12 +1,43 @@
+.bg-header {
+    width: 1800px;
+    height: 154px;
+    background-color: #182e48;
+    
 
+ .text{
+    width: 280px;
+    height: 60px;
+    margin: 0 0 0 65px;
+    padding: 43px;    }
+ h3 {
+    font-size: 35pt ;
+    font-family: 'Open Sans-Bold' ; 
+    
+ } 
+ h4 {font-size: 17pt ;
+    font-family: 'OpenSans' ; 
+}
+ h3,h4 {
+    color: white;    
+    }
+}
+
+
+.bg-main {
+    width: 1800px;
+    height: 3900px;
+   
+
+
+    }
 .color {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
     align-items: center;
     div{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
         
     }
@@ -37,6 +68,32 @@
     background-color: $l1-p4
 }
 
+.l2-p1{
+    background-color: $l2-p1
+}
+.l2-p2{
+    background-color: $l2-p2
+}
+.l2-p3{
+    background-color: $l2-p3
+}
+.l2-p4{
+    background-color: $l2-p4
+}
+
+.l3-p1{
+    background-color: $l2-p1
+}
+.l3-p2{
+    background-color: $l2-p2
+}
+.l3-p3{
+    background-color: $l2-p3
+}
+.l3-p4{
+    background-color: $l2-p4
+}
+
 .d1-p1{
     background-color: $d1-p1
 }
@@ -48,4 +105,82 @@
 }
 .d1-p4{
     background-color: $d1-p4
+}
+
+
+.d2-p1{
+    background-color: $d2-p1
+}
+.d2-p2{
+    background-color: $d2-p2
+}
+.d2-p3{
+    background-color: $d2-p3
+}
+.d2-p4{
+    background-color: $d2-p4
+}
+
+.d3-p1{
+    background-color: $d3-p1
+}
+.d3-p2{
+    background-color: $d3-p2
+}
+.d3-p3{
+    background-color: $d3-p3
+}
+.d3-p4{
+    background-color: $d3-p4
+}
+
+.typo{
+
+width: 0 auto;
+height: 540px;
+margin: 0 0 65px 0;
+    .typ {
+        font-family: 'OpenSans-Bold';
+        font-size: 22pt;
+        float: none;
+    }
+    p {
+        display: flex;
+        width: 100px;
+        float: left;
+        clear: both;
+    }
+    
+    h1 {
+        font-family: 'Poppinssb';
+        font-size: 35pt;
+    }
+    h2 {/*:hover{
+        background-color: lightblue;
+        color: #fff;
+        width: 300px;*/
+        font-size: 33pt;
+        font-family: 'Poppinsmedium';
+        color: #323538;
+    }
+    h3 {
+        font-size: 27pt;
+        font-family: 'Poppinsmedium';
+        color: #1e2021;
+    }
+    h4 {
+        font-size: 22pt;
+        font-family: 'Poppinsmedium';
+        color: #1e2021;
+    }
+    h5 {
+        font-size: 17pt;
+        font-family: 'Poppinsmedium';
+        color: #1e2021;
+    }
+    h6 {
+        font-size: 15pt;
+        font-family: 'Poppinsmedium';
+        color: #1e2021;
+    }
 }
